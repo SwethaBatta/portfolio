@@ -1,7 +1,8 @@
 import React from "react";
 import '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJira, faPython } from '@fortawesome/free-brands-svg-icons';
+import { faRobot } from '@fortawesome/free-solid-svg-icons';
+import { faReact, faJira } from '@fortawesome/free-brands-svg-icons';
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Experience.scss';
 
@@ -14,25 +15,25 @@ const labelsFirst = [
 ];
 
 const labelsSecond = [
+    "React",
+    "Node.js",
+    "Python",
+    "SQL",
+    "NoSQL",
+    "MERN",
     "Git",
     "GitHub Actions",
-    "Docker",
     "AWS",
-    "Azure",
-    "Linux",
-    "Snowflake",
-    "Pandas",
     "Selenium",
 ];
 
 const labelsThird = [
-    "OpenAI",
-    "Groq",
-    "LangChain",
-    "Qdrant",
-    "Hugging Face",
-    "LlamaIndex",
-    "Streamlit",
+    "Flask",
+    "Python",
+    "Google Cloud Text-to-Speech API",
+    "Gemini API",
+    "Gemini-Pro",
+    "RAG LLM"
 ];
 
 function Experience() {
@@ -59,14 +60,14 @@ function Experience() {
                     <p>Proficient in full-stack development, with expertise in building and deploying scalable web applications using technologies such as JavaScript, Node.js, React, and SQL/NoSQL databases.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
+                        {labelsSecond.map((label, index) => (
                             <Chip key={index} className='chip' label={label} />
                         ))}
                     </div>
                 </div>
 
                 <div className="skill">
-                    <FontAwesomeIcon icon={faPython} size="3x"/>
+                    <FontAwesomeIcon icon={faRobot} size="3x"/>
                     <h3>GenAI & LLM</h3>
                     <p>Explored and suggested process improvements by integrating Generative AI and LLMs into product workflows, enhancing automation and decision-making.</p>
                     <div className="flex-chips">
