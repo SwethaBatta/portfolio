@@ -45,7 +45,7 @@ function Main() {
           </div>
           <p>
             <i>
-              Passionate Product Manager with diverse experience in product
+              Experienced professional with diverse experience in product
               management and software development, leveraging a user-centric
               approach to deliver impactful solutions and drive innovation
             </i>
