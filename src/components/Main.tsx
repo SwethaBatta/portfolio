@@ -25,7 +25,7 @@ function Main() {
             </a>
           </div>
           <h1>Swetha Batta</h1>
-          <h2>Technical Product Manager / Senior Software Engineer</h2>
+          <h2>Technical Product Manager & Senior Software Engineer</h2>
 
           <div className="mobile_social_icons">
             <a
